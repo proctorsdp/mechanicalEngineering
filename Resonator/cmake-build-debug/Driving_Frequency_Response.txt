@@ -1,0 +1,13 @@
+
+Mass: 10, r: 0.8, Amp: 1
+k1: 4, k2: 5, c1: 2, c2: 1
+********* Solution *********
+Natural Frequency: 0.948683
+Damping Ratio: 0.158114
+Static Amplitude: 0.561919
+Frequency Response: 2.27273
+Phase Angle: 0.461915
+Displacement Transmissibility: 1.27709
+Force Transmissibility to the base: 0.593625
+Force Transmissibility to the wall: 1.09276
+

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/steven/Code/mechanicalEngineering/Resonator/driving_frequency.cpp
+driving_frequency.h
+/Users/steven/Code/mechanicalEngineering/Resonator/driving_frequency.h
+
+/Users/steven/Code/mechanicalEngineering/Resonator/driving_frequency.h
+stdio.h
+-
+iostream
+-
+math.h
+-
+
+/Users/steven/Code/mechanicalEngineering/Resonator/main.cpp
+iostream
+-
+string
+-
+sstream
+-
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+fstream
+-
+vector
+-
+driving_frequency.h
+/Users/steven/Code/mechanicalEngineering/Resonator/driving_frequency.h
+
