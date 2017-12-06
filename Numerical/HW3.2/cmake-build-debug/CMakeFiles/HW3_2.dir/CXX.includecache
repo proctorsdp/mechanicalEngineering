@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/HW3.2/main.cpp
+iostream
+-
+muller.h
+/Users/Steven/CLionProjects/HW3.2/muller.h
+
+/Users/Steven/CLionProjects/HW3.2/muller.h
+iostream
+-
+cmath
+-
+vector
+-
+sstream
+-
+string
+-
+complex
+-
+

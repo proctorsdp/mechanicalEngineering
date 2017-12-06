@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/HW9_4-5/Liebmann.h
+iostream
+-
+cmath
+-
+vector
+-
+fstream
+-
+string
+-
+iomanip
+-
+
+/Users/Steven/CLionProjects/HW9_4-5/main.cpp
+iostream
+-
+Liebmann.h
+/Users/Steven/CLionProjects/HW9_4-5/Liebmann.h
+

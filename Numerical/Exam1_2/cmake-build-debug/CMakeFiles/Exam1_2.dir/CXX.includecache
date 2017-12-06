@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/Exam1_2/gradientSearch.h
+iostream
+-
+cmath
+-
+sstream
+-
+
+/Users/Steven/CLionProjects/Exam1_2/main.cpp
+iostream
+-
+gradientSearch.h
+/Users/Steven/CLionProjects/Exam1_2/gradientSearch.h
+

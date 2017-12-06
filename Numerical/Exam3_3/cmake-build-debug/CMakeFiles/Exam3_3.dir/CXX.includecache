@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/Exam3_3/doubleTrpz.h
+iostream
+-
+cmath
+-
+string
+-
+sstream
+-
+iomanip
+-
+
+/Users/Steven/CLionProjects/Exam3_3/main.cpp
+iostream
+-
+doubleTrpz.h
+/Users/Steven/CLionProjects/Exam3_3/doubleTrpz.h
+

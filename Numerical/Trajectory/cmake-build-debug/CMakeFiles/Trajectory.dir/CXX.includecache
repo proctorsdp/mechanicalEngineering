@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/Trajectory/main.cpp
+iostream
+-
+trajectory.h
+/Users/Steven/CLionProjects/Trajectory/trajectory.h
+
+/Users/Steven/CLionProjects/Trajectory/trajectory.h
+iostream
+-
+cmath
+-
+sstream
+-
+string
+-
+vector
+-
+

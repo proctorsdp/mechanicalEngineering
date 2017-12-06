@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/Exam3_5/centralDerivation.h
+iostream
+-
+string
+-
+cmath
+-
+sstream
+-
+fstream
+-
+
+/Users/Steven/CLionProjects/Exam3_5/main.cpp
+iostream
+-
+romberg.h
+/Users/Steven/CLionProjects/Exam3_5/romberg.h
+centralDerivation.h
+/Users/Steven/CLionProjects/Exam3_5/centralDerivation.h
+
+/Users/Steven/CLionProjects/Exam3_5/romberg.h
+iostream
+-
+cmath
+-
+string
+-
+sstream
+-
+iomanip
+-
+

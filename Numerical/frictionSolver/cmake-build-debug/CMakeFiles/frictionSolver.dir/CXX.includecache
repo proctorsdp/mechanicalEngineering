@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/frictionSolver/frictionSolver.h
+iostream
+-
+cmath
+-
+sstream
+-
+string
+-
+vector
+-
+
+/Users/Steven/CLionProjects/frictionSolver/main.cpp
+iostream
+-
+frictionSolver.h
+/Users/Steven/CLionProjects/frictionSolver/frictionSolver.h
+

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/Exam1_5/main.cpp
+iostream
+-
+quadraticSpline.h
+/Users/Steven/CLionProjects/Exam1_5/quadraticSpline.h
+
+/Users/Steven/CLionProjects/Exam1_5/quadraticSpline.h
+cmath
+-
+string
+-
+sstream
+-
+iostream
+-
+iomanip
+-
+fstream
+-
+

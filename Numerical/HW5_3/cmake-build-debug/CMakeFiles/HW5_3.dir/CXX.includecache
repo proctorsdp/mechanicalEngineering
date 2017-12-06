@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/HW5_3/gridSearch.h
+iostream
+-
+vector
+-
+sstream
+-
+string
+-
+cmath
+-
+
+/Users/Steven/CLionProjects/HW5_3/main.cpp
+iostream
+-
+gridSearch.h
+/Users/Steven/CLionProjects/HW5_3/gridSearch.h
+

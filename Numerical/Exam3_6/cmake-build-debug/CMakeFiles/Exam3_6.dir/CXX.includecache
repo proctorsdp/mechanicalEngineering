@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/Exam3_6/RK_4Order.h
+iostream
+-
+cmath
+-
+iomanip
+-
+vector
+-
+fstream
+-
+sstream
+-
+
+/Users/Steven/CLionProjects/Exam3_6/main.cpp
+iostream
+-
+RK_4Order.h
+/Users/Steven/CLionProjects/Exam3_6/RK_4Order.h
+

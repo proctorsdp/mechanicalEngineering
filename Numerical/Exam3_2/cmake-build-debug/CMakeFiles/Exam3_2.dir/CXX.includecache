@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/Exam3_2/centralDerivation.h
+iostream
+-
+string
+-
+cmath
+-
+sstream
+-
+fstream
+-
+
+/Users/Steven/CLionProjects/Exam3_2/main.cpp
+iostream
+-
+centralDerivation.h
+/Users/Steven/CLionProjects/Exam3_2/centralDerivation.h
+

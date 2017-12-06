@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/TemperaturePoly/main.cpp
+iostream
+-
+tempPoly.h
+/Users/Steven/CLionProjects/TemperaturePoly/tempPoly.h
+
+/Users/Steven/CLionProjects/TemperaturePoly/tempPoly.h
+iostream
+-
+cmath
+-
+sstream
+-
+string
+-
+vector
+-
+

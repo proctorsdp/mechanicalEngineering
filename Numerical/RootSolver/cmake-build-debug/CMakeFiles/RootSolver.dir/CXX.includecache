@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/RootSolver/main.cpp
+iostream
+-
+rootSolver.h
+/Users/Steven/CLionProjects/RootSolver/rootSolver.h
+
+/Users/Steven/CLionProjects/RootSolver/rootSolver.h
+iostream
+-
+cmath
+-
+sstream
+-
+string
+-
+vector
+-
+

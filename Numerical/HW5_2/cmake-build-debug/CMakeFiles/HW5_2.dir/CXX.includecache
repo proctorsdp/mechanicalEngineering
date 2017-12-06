@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/HW5_2/main.cpp
+iostream
+-
+randomSearch.h
+/Users/Steven/CLionProjects/HW5_2/randomSearch.h
+
+/Users/Steven/CLionProjects/HW5_2/randomSearch.h
+iostream
+-
+vector
+-
+sstream
+-
+string
+-
+cmath
+-
+stdlib.h
+-
+time.h
+-
+

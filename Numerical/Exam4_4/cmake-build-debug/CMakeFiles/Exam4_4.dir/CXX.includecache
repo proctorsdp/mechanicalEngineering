@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/Exam4_4/finiteDifference.h
+iostream
+-
+vector
+-
+cmath
+-
+string
+-
+sstream
+-
+fstream
+-
+
+/Users/Steven/CLionProjects/Exam4_4/main.cpp
+iostream
+-
+shootingMethod.h
+/Users/Steven/CLionProjects/Exam4_4/shootingMethod.h
+finiteDifference.h
+/Users/Steven/CLionProjects/Exam4_4/finiteDifference.h
+
+/Users/Steven/CLionProjects/Exam4_4/shootingMethod.h
+iostream
+-
+vector
+-
+cmath
+-
+string
+-
+sstream
+-
+fstream
+-
+

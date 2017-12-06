@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/Exam4_3/finiteElement.h
+iostream
+-
+cmath
+-
+vector
+-
+fstream
+-
+string
+-
+
+/Users/Steven/CLionProjects/Exam4_3/main.cpp
+iostream
+-
+finiteElement.h
+/Users/Steven/CLionProjects/Exam4_3/finiteElement.h
+

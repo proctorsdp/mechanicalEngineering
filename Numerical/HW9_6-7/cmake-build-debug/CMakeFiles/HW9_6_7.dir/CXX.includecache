@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/HW9_6-7/derivCond.h
+iostream
+-
+cmath
+-
+vector
+-
+string
+-
+fstream
+-
+
+/Users/Steven/CLionProjects/HW9_6-7/main.cpp
+iostream
+-
+midMethod.h
+/Users/Steven/CLionProjects/HW9_6-7/midMethod.h
+derivCond.h
+/Users/Steven/CLionProjects/HW9_6-7/derivCond.h
+
+/Users/Steven/CLionProjects/HW9_6-7/midMethod.h
+iostream
+-
+cmath
+-
+vector
+-
+string
+-
+fstream
+-
+

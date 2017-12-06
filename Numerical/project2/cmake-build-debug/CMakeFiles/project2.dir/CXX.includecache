@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/project2/BruteMinSearch.h
+iostream
+-
+cmath
+-
+sstream
+-
+
+/Users/Steven/CLionProjects/project2/GradientSearch.h
+iostream
+-
+cmath
+-
+sstream
+-
+
+/Users/Steven/CLionProjects/project2/main.cpp
+iostream
+-
+BruteMinSearch.h
+/Users/Steven/CLionProjects/project2/BruteMinSearch.h
+GradientSearch.h
+/Users/Steven/CLionProjects/project2/GradientSearch.h
+

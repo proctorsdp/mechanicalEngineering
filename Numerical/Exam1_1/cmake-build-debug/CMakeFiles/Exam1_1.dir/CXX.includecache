@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steven/CLionProjects/Exam1_1/goldenSection.h
+iostream
+-
+cmath
+-
+string
+-
+sstream
+-
+
+/Users/Steven/CLionProjects/Exam1_1/main.cpp
+iostream
+-
+goldenSection.h
+/Users/Steven/CLionProjects/Exam1_1/goldenSection.h
+
